@@ -1,0 +1,341 @@
+[q1]
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+	 Scanner s=new Scanner(System.in);
+	 int a=s.nextInt();
+	 if(a>0)
+	 System.out.println("positive");
+	 else if(a<0)
+	 System.out.println("negative");
+	 else
+	 System.out.println("number is zero");
+ 
+	}
+}
+
+
+
+
+
+
+[q2]
+
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+		int  a=s.nextInt();
+		
+		if(a%2==0)
+		 System.out.println("even");
+		else
+		 System.out.println("odd");	
+		
+	}
+}
+
+
+
+
+
+
+[q3]
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+				Scanner s =new Scanner(System.in);
+		char ch= s.next().charAt(0);
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+		 System.out.println("vowel");
+		 else
+		 System.out.println("consonant");
+	}
+}
+
+
+
+
+
+
+
+
+[q4]
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+		char ch= s.next().charAt(0);
+		if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')){
+		 System.out.println("alphabet");}
+		 else
+		 System.out.println("not an alphabet");
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+[q5]
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+		
+		int array[]= new int[3];
+		
+		for(int i=0;i<=2;i++){
+			array[i]=s.nextInt();
+		}
+		int largest=array[0];
+		for(int i=0;i<=2;i++){
+			if(largest<array[i]){
+				largest=array[i];
+			}
+		}
+		System.out.print("greatest::"+largest);
+	}
+}
+
+
+
+
+
+[q6]
+
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+		int a= s.nextInt();
+		if(a%4==0)
+	     {
+	     	if(a%100==0){
+	     		if(a%400==0){
+	     		System.out.println("leap year");
+	     		}
+	     		else
+	     		System.out.println("not leap year");
+	     	}else
+	     	System.out.println(" leap year");
+	     }
+	     else
+	     System.out.println("not leap year");
+			
+			
+	
+}}
+
+
+
+
+
+
+[q7]
+
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+	
+		for(int i=0;i<=4;i++){
+			System.out.println("Hello");
+		}
+	
+}}
+
+
+
+
+
+
+
+
+
+
+
+[q8]
+
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+		int sum=0;
+		
+		int n=s.nextInt();
+		
+		for(int i=0;i<=n-1;i++)
+		{
+			sum=sum+i;
+		}
+		System.out.println(sum);
+	
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[q9]
+
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+		int sum=0;
+		int []array= new int[4];
+		int n=s.nextInt();
+		
+		for(int i=0;i<=n-1;i++)
+		{
+			array[i]=s.nextInt();
+			sum=sum+array[i];
+		}
+		System.out.println("sum::"+sum);
+		
+		
+	
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[q10]
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s =new Scanner(System.in);
+        int n=s.nextInt();
+        int count=0;
+        while(n>1||n<-1){
+        	n=n/10;
+        	count++;
+        }
+        System.out.println(count);
+	
+}}
+
+
+
+
+
+
+
+
