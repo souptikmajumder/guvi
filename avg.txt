@@ -1,0 +1,19 @@
+n=input()
+arr_list=list()
+sum=0
+for i in range(int(n)):
+	s=input()
+	arr_list.append(s)
+
+for i in range(int(n)):
+	sum=sum+int(arr_list[i])
+
+
+print(sum/int(n))
+	
+
+	
+	
+
+
+ 
