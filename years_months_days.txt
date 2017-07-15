@@ -1,0 +1,12 @@
+
+import math
+n=input()
+years=int(n)/365
+years=math.floor(years)
+print("years:",years,"\n")
+months=(int(n)-365)/30
+months=math.floor(months)
+print("months:",months,"\n")
+days=int(n)-(int(years)*365+int(months)*30)
+days=math.floor(days)
+print("days:",days)
