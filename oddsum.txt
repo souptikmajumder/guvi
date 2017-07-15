@@ -1,0 +1,15 @@
+
+# your code goes here
+n=input()
+arr_list=list()
+sum=0
+
+for i in range(int(n)):
+	
+	arr_list.append(i)
+	if int(arr_list[i])%2==1:
+		sum=sum+int(arr_list[i])
+print(sum)	
+	
+	
+
